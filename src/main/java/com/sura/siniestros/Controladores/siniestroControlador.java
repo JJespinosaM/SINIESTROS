@@ -55,7 +55,7 @@ public class siniestroControlador {
             siniestroExistente.setPersonas_involucradas(datos.getPersonas_involucradas());
             siniestroExistente.setDanos_materiales(datos.getDanos_materiales());
 
-            // Guardar la actualización
+            // Guardar la actualización //Prueba
             Siniestro siniestroActualizado = siniestroServicio.registrarSiniestro(siniestroExistente);
             return ResponseEntity.status(HttpStatus.OK).body(siniestroActualizado);
         } catch (Exception error) {
