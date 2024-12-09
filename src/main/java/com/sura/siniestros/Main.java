@@ -24,5 +24,5 @@ public class Main {
                         .allowedHeaders("*");  // Permite todos los encabezados
             }
         };
-    }
+    } // Juan Jose
 }
